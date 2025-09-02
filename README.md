@@ -127,7 +127,7 @@ ESP32 runs a **logic switch** model: both the **Blynk app** and **local buttons*
 
 ---
 
-## 9) Firmware Scaffold (Option A)
+## 9) Firmware Scaffold
 - Configure pins: `RELAY[4] = {16,17,18,19}`, `BUTTON[4] = {21,22,23,25}`  
 - Set buttons `INPUT_PULLUP`, debounce ~100–150 ms  
 - On Blynk write → set state + drive relay + `virtualWrite()`  
